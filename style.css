@@ -194,6 +194,7 @@ div.box{
 
 .leftside-col, .rightside-col{
     padding:5px;
+    width:100%;
 }
 .rightside-col iframe{
     width: 100%;
