@@ -3,6 +3,7 @@
 nav,header,footer{
     display:block;
 }
+
 body{
     margin:0;
     line-height: 1;
@@ -28,15 +29,13 @@ p{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    
+    align-items: center;   
 }
 
 .row::after{
     display: table;
     clear: both;
-    content: "";
-    
+    content: "";    
 }
 
 .col-1{width: 8.33%;}
@@ -63,12 +62,14 @@ nav{
     margin:0;
     padding: 0;
 }
+
 nav ul{
     background-color: lightgray;
     overflow: hidden;
     padding: 0;
     margin: 0;
 }
+
 ul.topnav li{
     display: block;
     list-style: none;
@@ -76,9 +77,11 @@ ul.topnav li{
     padding: 0;
     margin: 0;
 }
+
 ul.topnav li.topnav-right{
     float:right;
 }
+
 ul.topnav li a{
     text-decoration: none;
     text-align: center;
@@ -86,26 +89,24 @@ ul.topnav li a{
     min-height: 16px;
     margin:0;
 }
+
 ul.topnav li a:hover{
     background-color: lightseagreen;
     color: white;
 }
+
 ul.topnav li.dropdownIcon{
     display: none;
 }
 
-
-/* ####################### Custom Styles ############################## */
+/* ####################### Custom Styles-section-1 ############################## */
 
 #section-1-gradient{
     background: linear-gradient(cyan,lightseagreen);
 }
+
 .leftside-col{
     padding-left: 30%;
-}
-
-form h2{
-    color: #fff;
 }
 
 h1.large{
@@ -114,6 +115,19 @@ h1.large{
     margin: 0;
     line-height: 60px;
 }
+
+form h2{
+    color: #fff;
+}
+
+input[type="text"]{
+    width:"400px";
+    min-width: 100px;
+    padding:5px;
+    border-radius: 7px;
+}
+
+/* ####################### Custom Styles-section-2 ############################## */
 
 h1.section2Header{
     font-size: 56px;  
@@ -145,16 +159,12 @@ button.learnmore{
     margin: auto;
 }
 
-input[type="text"]{
-    width:"400px";
-    min-width: 100px;
-    padding:5px;
-    border-radius: 7px;
-}
-
 /* ########################## Mobile ################################## */
 
 @media screen and (max-width:680px){
+
+/* ########################## Nav-Bar ################################## */
+
     ul.topnav li:not(:nth-child(1)){
         display:none;
 }
@@ -173,7 +183,7 @@ ul.topnav.responsive li{
     float: none;
 }
 
-ul.topnav.responsive li.dropdownIcon {
+ul.topnav.responsive li.dropdownIcon{
     position: absolute;
     top:0;
     right:0;
@@ -184,22 +194,37 @@ ul.topnav.responsive li a{
     text-align: left;
 }
 
-.col-6,.col-4{
+/* ########################## Section-1 ################################## */
+
+.col-6{
     width: 100%;
     margin: 0;
-}
-div.box{
-    padding: 5px;
 }
 
 .leftside-col, .rightside-col{
     padding:5px;
-    width:100%;
+    width: 100%;
 }
-.rightside-col iframe{
+
+.videocontainer iframe{
     width: 100%;
     position: relative;
     margin: 0;
     overflow: hidden;
 }
+
+/* ########################## Section-2 ################################## */
+
+div.box{
+    padding: 5px;
+}
+
+.col-4{
+    width: 100%;
+    margin: 0;
+}
+
+/* ########################## Section-3 ################################## */
+
+
 }
