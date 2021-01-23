@@ -162,7 +162,7 @@ button.learnmore{
 
 /* ########################## Mobile ################################## */
 
-@media screen and (max-width:6800000px){
+@media screen and (max-width:680px){
 
 /* ########################## Nav-Bar ################################## */
 
@@ -208,7 +208,7 @@ ul.topnav.responsive li a{
 }
 
 .videocontainer iframe{
-    width: 50%;
+    width: 100%;
     position: relative;
     margin: 0;
     overflow: hidden;
