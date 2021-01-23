@@ -84,6 +84,7 @@ ul.topnav li.topnav-right{
 
 ul.topnav li a{
     text-decoration: none;
+    line-height:3;
     text-align: center;
     padding:14px;
     min-height: 16px;
