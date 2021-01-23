@@ -207,17 +207,10 @@ ul.topnav.responsive li a{
 }
 
 .videocontainer iframe{
-    width: 100%;
+    width: 50%;
     position: relative;
     margin: 0;
     overflow: hidden;
-}
-    
-.container{
-    psdding: right;
-    margin: auto;
-    padding-top: 4%;
-    padding-bottom: 4%;
 }
 
 /* ########################## Section-2 ################################## */
